@@ -21,7 +21,7 @@ export default function AdministrationPage() {
     },
     {
       titre: "Urbanisme",
-      description: "Permis de construire, déclarations de travaux, certificats d'urbanisme",
+      description: "Permis de construire, déclarations de travaux, certificats d&#39;urbanisme",
       icone: "🏗️"
     },
     {
@@ -41,16 +41,16 @@ export default function AdministrationPage() {
     },
     {
       titre: "Culture et sports",
-      description: "Organisation d'événements culturels, gestion des équipements sportifs",
+      description: "Organisation d&#39;événements culturels, gestion des équipements sportifs",
       icone: "🎭"
     }
   ];
 
   const documents = [
-    "Carte d'identité",
+    "Carte d&#39;identité",
     "Passeport",
     "Certificat de résidence",
-    "Attestation d'accueil",
+    "Attestation d&#39;accueil",
     "Certificat de concubinage",
     "Autorisation de sortie du territoire"
   ];
@@ -109,9 +109,9 @@ export default function AdministrationPage() {
                 </div>
               </div>
 
-              {/* Horaires d'ouverture */}
+              {/* Horaires d&#39;ouverture */}
               <div className="mt-8">
-                <h3 className="text-xl font-bold text-blue-900 mb-4">Horaires d'ouverture</h3>
+                <h3 className="text-xl font-bold text-blue-900 mb-4">Horaires d&#39;ouverture</h3>
                 <div className="grid md:grid-cols-3 gap-4">
                   {mairieInfo.horaires.map((horaire, index) => (
                     <div key={index} className="bg-gray-50 p-4 rounded-lg">
@@ -188,7 +188,7 @@ export default function AdministrationPage() {
                     </div>
                     <div className="bg-green-50 p-4 rounded-lg">
                       <p className="text-green-800 text-sm">
-                        <strong>Pièces à fournir :</strong> Pensez à apporter une pièce d'identité et les documents justificatifs nécessaires.
+                        <strong>Pièces à fournir :</strong> Pensez à apporter une pièce d&#39;identité et les documents justificatifs nécessaires.
                       </p>
                     </div>
                     <div className="bg-orange-50 p-4 rounded-lg">
@@ -206,7 +206,7 @@ export default function AdministrationPage() {
           <section className="text-center">
             <div className="bg-blue-600 rounded-2xl p-8 text-white">
               <h2 className="text-3xl font-bold mb-4">
-                Besoin d'aide ?
+                Besoin d&#39;aide ?
               </h2>
               <p className="text-xl mb-6">
                 Contactez directement la mairie pour toute question administrative

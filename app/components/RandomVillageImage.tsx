@@ -51,7 +51,7 @@ export default function RandomVillageImage() {
         <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
         <div className="absolute bottom-4 left-4 text-white">
           <h3 className="text-xl font-semibold mb-1">{currentImage.title}</h3>
-          <p className="text-sm opacity-90">Découvrez l'authenticité de la Corse</p>
+          <p className="text-sm opacity-90">D 9couvrez l&#39;authenticit 0e de la Corse</p>
         </div>
         
         {/* Bouton pour changer l'image */}

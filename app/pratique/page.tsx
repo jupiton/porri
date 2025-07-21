@@ -23,7 +23,7 @@ export default function PratiquePage() {
             href="/"
             className="inline-block bg-white text-blue-900 px-6 py-2 rounded-full font-semibold hover:bg-blue-50 transition-colors"
           >
-            ← Retour à l'accueil
+            ← Retour à l&#39;accueil
           </Link>
         </div>
       </header>
@@ -51,10 +51,10 @@ export default function PratiquePage() {
           <section className="mb-20">
             <div className="text-center mb-16">
               <h2 className="text-4xl font-bold text-gray-900 mb-4">
-                Comment s'y rendre
+                Comment s&#39;y rendre
               </h2>
               <p className="text-xl text-gray-600">
-                Les différents moyens d'accéder à Porri
+                Les différents moyens d&#39;accéder à Porri
               </p>
             </div>
             
@@ -62,14 +62,15 @@ export default function PratiquePage() {
               <div className="bg-white p-8 rounded-2xl shadow-lg">
                 <div className="flex items-center mb-6">
                   <div className="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mr-4">
-                    <span className="text-2xl">🚗</span>
+                    <span className="text-2xl"></span>
                   </div>
                   <h3 className="text-2xl font-bold">En voiture</h3>
                 </div>
                 <div className="space-y-4">
                                      <div className="border-l-4 border-blue-500 pl-4">
                      <h4 className="font-bold text-gray-900">Depuis Bastia :</h4>
-                     <p className="text-gray-600">Prendre la route T10 vers la Casinca, puis suivre les panneaux "Porri"</p>
+                     <p className="text-gray-600">Prendre la route T10 vers la Casinca, puis suivre les panneaux 
+                      Porri</p>
                      <p className="text-sm text-gray-500 mt-1">Durée : environ 25 minutes (15km)</p>
                    </div>
                                      <div className="border-l-4 border-green-500 pl-4">
@@ -95,7 +96,7 @@ export default function PratiquePage() {
                 <div className="space-y-4">
                                      <div className="border-l-4 border-blue-500 pl-4">
                      <h4 className="font-bold text-gray-900">Bus depuis Bastia :</h4>
-                     <p className="text-gray-600">Ligne régulière vers la Casinca, arrêt "Porri"</p>
+                     <p className="text-gray-600">Ligne régulière vers la Casinca, arrêt Porri</p>
                      <p className="text-sm text-gray-500 mt-1">Fréquence : 3-4 fois par jour</p>
                    </div>
                                      <div className="border-l-4 border-green-500 pl-4">
@@ -123,7 +124,7 @@ export default function PratiquePage() {
                 Où se loger
               </h2>
               <p className="text-xl text-gray-600">
-                Les options d'hébergement à proximité de Porri
+                Les options d&#39;hébergement à proximité de Porri
               </p>
             </div>
             
@@ -319,7 +320,7 @@ export default function PratiquePage() {
                   <div className="flex items-start space-x-3">
                     <span className="text-blue-600 font-semibold">✓</span>
                     <div>
-                      <h4 className="font-bold">Réservez à l'avance</h4>
+                      <h4 className="font-bold">Réservez à l&#39;avance</h4>
                       <p className="text-sm text-gray-600">Hébergements et restaurants en haute saison</p>
                     </div>
                   </div>
@@ -347,7 +348,7 @@ export default function PratiquePage() {
                     <span className="text-green-600 font-semibold">💡</span>
                     <div>
                       <h4 className="font-bold">Respectez les horaires</h4>
-                      <p className="text-sm text-gray-600">Commerces fermés l'après-midi en été</p>
+                      <p className="text-sm text-gray-600">Commerces fermés l&#39;après-midi en été</p>
                     </div>
                   </div>
                   <div className="flex items-start space-x-3">
@@ -361,7 +362,7 @@ export default function PratiquePage() {
                     <span className="text-green-600 font-semibold">💡</span>
                     <div>
                       <h4 className="font-bold">Prenez votre temps</h4>
-                      <p className="text-sm text-gray-600">L'authenticité se découvre lentement</p>
+                      <p className="text-sm text-gray-600">L&#39;authenticité se découvre lentement</p>
                     </div>
                   </div>
                 </div>

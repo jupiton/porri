@@ -7,7 +7,7 @@ export default function Footer() {
             <h3 className="text-2xl font-bold mb-4">Porri</h3>
             <p className="text-gray-300">
               Village authentique de la Casinca corse, 
-              niché dans les montagnes à 450m d'altitude.
+              niché dans les montagnes à 450m d altitude.
             </p>
           </div>
           

@@ -38,7 +38,7 @@ export default function LanguageSelector() {
       <button
         onClick={() => setIsOpen(!isOpen)}
         className="flex items-center space-x-2 px-3 py-2 bg-white/90 backdrop-blur-sm rounded-lg shadow-lg hover:bg-white transition-all duration-200 border border-gray-200"
-        aria-label="Sélectionner la langue"
+        aria-label="S 9lectionner la langue"
       >
         <span className="text-lg">{currentLanguage?.flag}</span>
         <span className="text-sm font-medium text-gray-700 hidden sm:block">

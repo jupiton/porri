@@ -13,7 +13,7 @@ export default function VisitesPage() {
     },
     {
       title: "Visite du village",
-      description: "Explorez les ruelles pittoresques et l'architecture traditionnelle corse",
+      description: "Explorez les ruelles pittoresques et l&#39;architecture traditionnelle corse",
       image: "/images/porri-ruelles.jpg",
       duree: "1-2 heures",
       difficulte: "Facile"
@@ -41,11 +41,11 @@ export default function VisitesPage() {
     },
     {
       titre: "Meilleure période",
-      contenu: "Avril à octobre pour les activités extérieures. L'été offre le plus d'animations."
+      contenu: "Avril à octobre pour les activités extérieures. L&#39;été offre le plus d&#39;animations."
     },
     {
       titre: "Hébergement",
-      contenu: "Gîtes ruraux, chambres d'hôtes et hôtels disponibles dans la région de la Casinca."
+      contenu: "Gîtes ruraux, chambres d&#39;hôtes et hôtels disponibles dans la région de la Casinca."
     },
     {
       titre: "Restaurants",
@@ -85,7 +85,7 @@ export default function VisitesPage() {
               Activités à découvrir
             </h2>
             <p className="text-xl text-gray-600">
-              Une multitude d'expériences vous attendent à Porri
+              Une multitude d&#39;expériences vous attendent à Porri
             </p>
           </div>
 
@@ -159,7 +159,7 @@ export default function VisitesPage() {
               href="#accueil" 
               className="bg-white text-blue-600 px-8 py-3 rounded-full font-semibold hover:bg-blue-50 transition-colors inline-block"
             >
-              Retour à l'accueil
+              Retour à l&#39;accueil
             </a>
             <a 
               href="mailto:contact@porri-corse.fr" 
