@@ -5,38 +5,35 @@ export default function ActualitesMarquee() {
   const [news, setNews] = useState<string[]>([]);
 
   useEffect(() => {
-    // Charger dynamiquement les actualités (ici statique, mais prêt pour API plus tard)
     setNews([
       "📰 Paella du 12 août : plus de renseignements au 04 95 40 40 44, places limitées !"
     ]);
   }, []);
 
   if (news.length === 0) {
-    // Loader léger
     return (
-      <div className="w-full bg-yellow-100 border-b-2 border-yellow-400 py-2 text-yellow-900 text-center animate-pulse">
+      <div className="w-full border-b border-white/20 py-2 text-white text-center animate-pulse shadow-lg">
         Chargement des actualités…
       </div>
     );
   }
 
   return (
-    <div className="w-full bg-yellow-100 border-b-2 border-yellow-400 py-2 overflow-hidden relative">
-      <div className="absolute left-0 top-0 h-full w-full pointer-events-none bg-gradient-to-r from-yellow-100 via-transparent to-yellow-100 z-10" />
+    <div className="w-full border-b border-white/20 py-2 overflow-hidden relative shadow-lg">
+      <div className="absolute left-0 top-0 h-full w-full pointer-events-none z-10" />
       <div className="whitespace-nowrap animate-marquee flex items-center">
         {news.map((text, idx) => (
           <span
             key={idx}
-            className="text-yellow-900 font-semibold text-lg px-8"
+            className="text-white font-semibold text-lg px-8 drop-shadow-md"
           >
             {text}
           </span>
         ))}
-        {/* Duplicate for seamless loop */}
         {news.map((text, idx) => (
           <span
             key={idx + "-dup"}
-            className="text-yellow-900 font-semibold text-lg px-8"
+            className="text-white font-semibold text-lg px-8 drop-shadow-md"
             aria-hidden="true"
           >
             {text}
@@ -47,9 +44,9 @@ export default function ActualitesMarquee() {
         .animate-marquee {
           display: inline-block;
           min-width: 100%;
-          animation: marquee 18s linear infinite;
+          animation: marquee-bounce 18s linear infinite alternate;
         }
-        @keyframes marquee {
+        @keyframes marquee-bounce {
           0% {
             transform: translateX(0%);
           }

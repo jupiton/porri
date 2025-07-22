@@ -98,9 +98,11 @@ export const translations = {
           description: "Les températures sont agréables et les paysages magnifiques. Évitez la haute saison estivale pour plus de tranquillité."
         }
       }
+    },
+    news: {
+      paella: "📰 Paella du 12 août : plus de renseignements au 04 95 40 40 44, places limitées !"
     }
   },
-  
   co: {
     // Navigation
     nav: {
@@ -200,9 +202,11 @@ export const translations = {
           description: "E temperature sò piacevuli è i paesaggi magnifici. Evitate a alta stagione estiva per più tranquillità."
         }
       }
+    },
+    news: {
+      paella: "📰 Paella di u 12 d’aostu : più infurmazione à u 04 95 40 40 44, piazze limitate !"
     }
   },
-
   en: {
     // Navigation
     nav: {
@@ -302,6 +306,9 @@ export const translations = {
           description: "Temperatures are pleasant and landscapes magnificent. Avoid the high summer season for more tranquility."
         }
       }
+    },
+    news: {
+      paella: "📰 Paella on August 12th: more information at 04 95 40 40 44, limited seats!"
     }
   }
 };
