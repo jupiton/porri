@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 const villageImages = [
   {
@@ -27,14 +27,25 @@ const villageImages = [
 ];
 
 export default function RandomVillageImage() {
-  const [currentImageIndex, setCurrentImageIndex] = useState(
-    Math.floor(Math.random() * villageImages.length)
-  );
+  const [currentImageIndex, setCurrentImageIndex] = useState<number | null>(null);
+
+  useEffect(() => {
+    // Choisir l'image aléatoirement côté client uniquement
+    setCurrentImageIndex(Math.floor(Math.random() * villageImages.length));
+  }, []);
 
   const changeImage = () => {
-    const newIndex = Math.floor(Math.random() * villageImages.length);
-    setCurrentImageIndex(newIndex);
+    setCurrentImageIndex(Math.floor(Math.random() * villageImages.length));
   };
+
+  if (currentImageIndex === null) {
+    // Loader ou placeholder
+    return (
+      <div className="w-full h-64 flex items-center justify-center bg-gray-100 text-gray-400 rounded-2xl shadow-lg">
+        Chargement de l’image…
+      </div>
+    );
+  }
 
   const currentImage = villageImages[currentImageIndex];
 
@@ -51,9 +62,8 @@ export default function RandomVillageImage() {
         <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
         <div className="absolute bottom-4 left-4 text-white">
           <h3 className="text-xl font-semibold mb-1">{currentImage.title}</h3>
-          <p className="text-sm opacity-90">D 9couvrez l&#39;authenticit 0e de la Corse</p>
+          <p className="text-sm opacity-90">D&#39;couvrez l&#39;authenticit&#233; de la Corse</p>
         </div>
-        
         {/* Bouton pour changer l'image */}
         <button
           onClick={changeImage}

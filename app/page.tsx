@@ -6,6 +6,7 @@ import ImageGallery from "./components/ImageGallery";
 import Navigation from "./components/Navigation";
 import RandomVillageImage from "./components/RandomVillageImage";
 import Footer from "./components/Footer";
+import ActualitesMarquee from "./components/ActualitesMarquee";
 import { useLanguage } from "./i18n/LanguageContext";
 import { porriImages } from "./data/images";
 
@@ -19,6 +20,7 @@ export default function Home() {
 
       {/* Navigation */}
       <Navigation currentPage="accueil" />
+      <ActualitesMarquee />
 
       {/* Main Content */}
       <main>
