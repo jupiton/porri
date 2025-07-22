@@ -45,12 +45,9 @@ export default function HeroSection() {
 
   return (
     <section className="relative h-screen flex items-center justify-center overflow-hidden">
-      {/* Bandeau Actualités tout en haut */}
-      <div className="absolute top-0 left-0 w-full z-30">
-        <ActualitesMarquee />
-        <div className="flex justify-end mt-2 pr-6">
-          <LanguageSelector />
-        </div>
+      {/* Sélecteur de langue en haut à droite */}
+      <div className="absolute top-4 right-6 z-30">
+        <LanguageSelector />
       </div>
       {/* Background Carousel */}
       <div className="absolute inset-0">
