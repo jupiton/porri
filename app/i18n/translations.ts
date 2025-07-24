@@ -12,7 +12,7 @@ export const translations = {
     // Hero Section
     hero: {
       title: "Porri",
-      subtitle: "Village authentique de la Casinca corse, perché à 450m d'altitude, 15km de Bastia",
+      subtitle: "Le village de Porri est le plus petit des 7 villages de Casinca, et peut-être le plus charmant. Il s'étale sur la colline, et intrigue par sa beauté et son passé mystérieux à travers les ruines de l'ancien village de Saghjapicu",
       discover: "Découvrir"
     },
     
